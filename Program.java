@@ -1,9 +1,45 @@
-//import stuff here
+import java.util.Scanner;
 
-//Your code here
+public class Program7 {
+  
+public static void main(String[] args){
+  
+    double sbuck;
+
+    double klevins;
+
+    double snickels;
+
+    double newSbuck
+
+    Scanner newNum = new Scanner(System.in);
+    
+    System.out.print("Enter schrute-bucks: ");
+    
+    sbuck = newNum.nextDouble();
+    
+    System.out.print("Enter klevins: ");
+    
+    klevins = newNum.nextDouble();
+    
+    System.out.print("Enter stanley-nickels");
+    
+    snickels = newNum.nextDouble();
+    
+    newSbuck = sbuck + klevins*(1.0/20) + snickels*(1.0/240);
+   
+    System.out.println(newSbuck);
+}
+
+
+
+}
 
 //Paste console output below:
 /*
-
+Enter schrute-bucks: 7
+Enter klevins: 17
+Enter stanley-nickels: 9
+7.887
 
 */
